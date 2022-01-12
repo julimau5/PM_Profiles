@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PDFhandlerService } from './services/pdfhandler.service';
 
 @Component({
   selector: 'app-templates-dashboard',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TemplatesDashboardComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private pdfHandler: PDFhandlerService
+  ) { }
 
   ngOnInit(): void {
   }
