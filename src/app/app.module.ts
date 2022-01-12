@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { ProfilesModule } from './modules/profiles/profiles.module';
+import { TemplatesModule } from './modules/templates/templates.module';
 
 
 
@@ -17,7 +18,8 @@ import { ProfilesModule } from './modules/profiles/profiles.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    ProfilesModule
+    ProfilesModule,
+    TemplatesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
